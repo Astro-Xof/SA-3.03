@@ -22,13 +22,13 @@ L'infrastructure doit être segmentée en plusieurs réseaux spécifiques pour i
 *  **PERSONNEL** : Pour la communication entre les postes des employés.
 
 
-*  **VIDEO** : Flux prioritaire (QoS) pour la diffusion sur téléviseurs connectés.
+*  **VIDEO** : Serveur Vidéo qui diffusera en direct sur des téléviseurs. (Ce flux sera prioriaire)
 
 
 *  **PRODUCTION** : Réseau isolé pour couper le trafic entre les halls de production et les employés.
 
 
-*  **WIFI** : Deux réseaux distincts (Personnel sécurisé et Invité avec accès Web uniquement).
+*  **WIFI** : Deux réseau Wi-Fi qui ont chacun leur Vlan un pour le personnel et un pour les invités.
 
 
 
